@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Outfit', sans-serif;
+    /* padding: 30px; */
+    height: 100vh;
+    display: block;
+    padding: 3rem 0;
+    /* overflow: hidden; */
+    }
+
+/* Header styling */
+.header{
+    display: block;
+}
+
+/* .nav-bx{
+    height: 60px;
+} */
+
+/* .fixed-top{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+} */
+
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    padding: .5rem 1rem;
+}
+
+/* Navbar logo styling */
+/* .logo-img{
+    height: 3rem;
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    white-space: nowrap;
+    } */
+
+/*Footer logo styling */
+footer .logo-img{
+    height: 2rem;
+    margin-right: 5px;
+}
+
+/* Navbar outline buttons styling */
+.btn_outline{
+    color:#A559E7;
+    border-color: #A559E7;
+}
+
+.btn_outline:hover,
+.btn_outline:focus,
+.btn_outline:active {
+    background-color: #A559E7;
+    color: white;
+}
+
+/* Navbar filled buttons styling */
+.btn_filled{
+    background-color: #A559E7;
+    color: white;
+}
+
+.btn_filled:hover,
+.btn_filled:focus,
+.btn_filled:active{
+    background-color: #8b48c6;
+    color: white;
+}
+
+/* Navbar anchor direction tags styling */
+.nav-bx ul li a{
+    color: #A559E7;
+}
+.nav-bx ul li a:hover,
+.nav-bx ul li a:focus,
+.nav-bx ul li a:active{
+    color: #8b48c6;
+}
+
+
+.pix{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    transform: scale(1.04);
+}
+
+.pix .hand-card{
+    position: absolute;
+    z-index: 99;
+    display: flex;
+    justify-content: baseline;
+    margin-top: 90px;
+    transform: scale(1.1); 
+    transition: all 1s ease;
+
+}
+
+.pix .hand-card:hover{
+    transform: translate(50px, -20px)
+
+}
+
+.left-bx{
+    /* background: rgb(245, 0, 0); */
+    z-index: 999;
+}
+
+/* main text styling */
+
+.left-bx h1{
+    color: rgba(111, 214, 149, 1)!important;
+    font-size: 2.82rem;
+}
+
+.left-bx h2{
+    color: #616161!important;
+    font-size: 1.5rem;
+}
+.left-bx p{
+    font-size: 1.1rem;
+    color: #616161!important;
+}
+
+/* styling subscription email */
+#newsletter{
+    width: 100%;
+}
+
+#newsletter1:hover,
+#newsletter1:focus,
+#newsletter1:active{
+   border-color: #A559E7;
+   box-shadow: 0 0 0 .25rem rgba(165, 89, 231, .25);
+   
+}
+
+/* styling subscription button */
+.subscribe{
+    width: 150px;
+    background: #A559E7;
+    border-color: #A559E7;
+    transition: all 0.3s ease-in-out
+
+}
+
+.subscribe.btn.btn-primary:active, 
+.subscribe.btn.btn-primary:focus, 
+.subscribe.btn.btn-primary:hover{
+    background-color: #8b48c6;
+    border-color: #8b48c6;
+    color: white;
+}
+
+/* styling the card*/
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #A064DF;
+    /* font-size: 27px; */
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+    border-radius: 20px;
+    border: 1px solid #A064DF;
+
+}
+
+/* styling the card image */
+.card-img-top {
+    width: 2rem;
+    height: 2.5rem;
+    margin-top: 30px;
+}
+
+.form-control::placeholder{
+    color: rgba(128, 128, 128, 0.351);
+}
+
+/* styling girl photo */
+footer ul li a svg{
+    transition: all 0.3s ease-in-out;
+}
+
+footer ul li a svg:hover{
+    transform: translate(2px, -2px);
+    color: #A064DF;
+}
+
+
+
